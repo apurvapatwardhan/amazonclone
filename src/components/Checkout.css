@@ -1,0 +1,32 @@
+.checkout {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.checkout__left {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.checkout__ad {
+  width: 1000px;
+  height: 50px;
+}
+
+.checkout__title {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.checkout__items {
+  margin-top: 20px;
+}
+
+.checkout__right {
+  border: 2px solid #efeded;
+  width: 300px;
+  height: 100px;
+  background: #efeded;
+  margin: 15px;
+}

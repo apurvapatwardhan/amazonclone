@@ -1,0 +1,40 @@
+.icon-color {
+  color: #ffd358;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background: bisque;
+  margin: 10px;
+  padding: 5px;
+}
+
+.product__price {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.product__image__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__image__div img {
+  border-radius: 30px;
+}
+
+.product__basket {
+  display: flex;
+  justify-content: center;
+}
+
+.product__basket button {
+  background: #ffb65d;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 130px;
+}

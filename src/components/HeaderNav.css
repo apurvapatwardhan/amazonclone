@@ -1,0 +1,46 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.header__nav__bag {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.header__nav__quantity {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.white-color {
+  color: white;
+  text-decoration: none;
+}
+
+.header__options__line__one small {
+  text-decoration: none;
+  color: white;
+}
+.header__options__line__two strong {
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav__logout button {
+  background: black;
+  color: #f1f0ee;
+  position: relative;
+  top: 7px;
+  height: 25px;
+  padding: 4px;
+}
