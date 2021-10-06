@@ -15,6 +15,7 @@ const reducer = (prevState, action) => {
           },
         ],
         user: prevState.user,
+        idToken: prevState.idToken,
       };
     case "REMOVE_FROM_BASKET":
       let index = [...prevState.basket].findIndex(
@@ -26,7 +27,11 @@ const reducer = (prevState, action) => {
       } else {
         console.warn("No such product is present in basket");
       }
-      return { basket: newBasket, user: prevState.user };
+      return {
+        basket: newBasket,
+        user: prevState.user,
+        idToken: prevState.idToken,
+      };
     case "LOGIN":
       return { ...prevState, user: action.user, idToken: action.idToken };
     case "LOGOUT":

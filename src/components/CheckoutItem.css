@@ -1,5 +1,29 @@
 .checkoutitem {
   display: flex;
+  animation-name: removeItem;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes removeItem {
+  0% {
+    position: relative;
+    left: -10px;
+    color: red;
+  }
+  25% {
+    position: relative;
+    left: 0px;
+    color: blue;
+  }
+  75% {
+    position: relative;
+    left: 10px;
+    color: rgb(56, 230, 21);
+  }
+  100% {
+    color: brown;
+  }
 }
 
 .checkoutitem__image {
